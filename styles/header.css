@@ -1,0 +1,152 @@
+.header {
+  height: 75px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+
+.left-section {
+  flex:0.1;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.middle-section {
+  flex:1;
+  margin-right: 5px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+}
+
+.right-section {
+  margin-right: 15px;
+  flex:0.2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-shrink: 0;
+}
+
+.statpulse-logo {
+  margin-left: 15px;
+  height: 75px;
+}
+
+.f1-link {
+  width: 1fr;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.nba-link {
+  width: 1fr;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.about-logo {
+  margin-left: 15px;
+  height:40px;
+}
+
+.contact-logo {
+  margin-left: 20px;
+  height: 30px;
+}
+
+.about-button {
+  position:relative
+}
+
+.contact-button {
+  position:relative
+}
+
+.f1-button,
+.nba-button {
+  font-family: Poppins, Arial;
+  font-weight: Bold;
+  background-color: rgb(45, 132, 245);
+  border-color: rgb(45, 132, 245);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.f1-button:hover,
+.nba-button:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: rgb(45, 132, 245);
+}
+
+.f1-button:active,
+.nba-button:active {
+  opacity: 0.7;
+}
+
+.left-section:hover,
+.left-section:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: rgb(45, 132, 245);
+}
+
+.left-section:active,
+.left-section:active {
+  opacity: 0.7;
+}
+
+.about-button .tooltip_about,
+.contact-button .tooltip_contact
+{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+
+.about-button:hover .tooltip_about,
+.contact-button:hover .tooltip_contact
+{
+  opacity: 1;
+}

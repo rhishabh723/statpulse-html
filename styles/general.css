@@ -1,0 +1,27 @@
+p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  /* This style below will be inherited */
+  font-family: Poppins, Arial;
+  margin: 0;
+  height: 1500px;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+ }
+
+.tyres-strategy-plot {
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  padding-left: 00px;
+}

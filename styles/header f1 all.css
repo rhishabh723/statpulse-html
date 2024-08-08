@@ -1,0 +1,107 @@
+.header-2 {
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+.statpulse-logo {
+  margin-left: 15px;
+  height: 75px;
+}
+
+.right-section {
+  flex:0.25;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.right-section:hover,
+.right-section:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: rgb(45, 132, 245);
+}
+
+.f1-years{
+  flex:3;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.f1-all-link,
+.f1-2024-link,
+.f1-2023-link,
+.f1-2022-link,
+.f1-2021-link,
+.f1-2020-link {
+  width: 1fr;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.f1-all-button,
+.f1-2024-button,
+.f1-2023-button,
+.f1-2022-button,
+.f1-2021-button,
+.f1-2020-button
+
+ {
+  font-family: Poppins, Arial;
+  font-weight: Bold;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(45, 132, 245);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(45, 132, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.f1-all-button:hover,
+.f1-2024-button:hover,
+.f1-2023-button:hover,
+.f1-2022-button:hover,
+.f1-2021-button:hover,
+.f1-2020-button:hover
+ {
+  background-color: rgb(45, 132, 245);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: rgb(255, 255, 255);
+}
+
+.f1-all-button,
+.f1-2024-button,
+.f1-2023-button,
+.f1-2022-button,
+.f1-2021-button,
+.f1-2020-button
+ {
+  opacity: 0.7;
+}

@@ -1,0 +1,137 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgb(246, 246, 246);
+  width: 200px;
+  z-index: 200;
+  padding-top: 0px;
+  padding-left: 5px;
+}
+
+.gp {
+  /* position: fixed; */
+  overflow-y: auto;
+  /* height: 20000px; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgb(246, 246, 246);
+  width: 200px;
+  z-index: 200;
+  padding-top: 0px;
+  padding-left: 5px;
+}
+
+.totals-link
+{
+  font-weight: 700;
+  background-color:rgb(246, 246, 246);
+  color: rgb(45, 132, 245);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  line-height: 30px;
+  text-decoration:none;
+}
+
+.totals-link:hover
+{
+background-color: rgb(253, 253, 253);
+}
+
+.bahrain-link,
+.saudi-arabia-link,
+.australia-link,
+.japan-link,
+.china-link,
+.miami-link,
+.imola-link,
+.monaco-link,
+.canada-link,
+.spain-link,
+.austria-link,
+.uk-link,
+.hungary-link,
+.belgium-link,
+.azerbaijan-link,
+.dutch-link,
+.italy-link,
+.singapore-link,
+.qatar-link,
+.united-states-link,
+.mexico-link,
+.sao-paulo-link,
+.las-vegas-link,
+.abu-dhabi-link,
+.france-link,
+.russia-link,
+.turkish-link,
+.portugal-link,
+.styrian-link,
+.tuscan-link,
+.sakhir-link,
+.eifel-link
+{
+  background-color: rgb(246, 246, 246);
+  color: rgb(45, 132, 245);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  line-height: 30px;
+  text-decoration:none;
+}
+
+.bahrain-link:hover,
+.saudi-arabia-link:hover,
+.australia-link:hover,
+.japan-link:hover,
+.china-link:hover,
+.miami-link:hover,
+.imola-link:hover,
+.monaco-link:hover,
+.canada-link:hover,
+.spain-link:hover,
+.austria-link:hover,
+.uk-link:hover,
+.hungary-link:hover,
+.belgium-link:hover,
+.azerbaijan-link:hover,
+.dutch-link:hover,
+.italy-link:hover,
+.singapore-link:hover,
+.qatar-link:hover,
+.united-states-link:hover,
+.mexico-link:hover,
+.sao-paulo-link:hover,
+.las-vegas-link:hover,
+.abu-dhabi-link:hover,
+.france-link:hover,
+.russia-link:hover,
+.turkish-link:hover,
+.portugal-link:hover,
+.styrian-link:hover,
+.tuscan-link:hover,
+.sakhir-link:hover,
+.eifel-link:hover
+ {
+  background-color: rgb(253, 253, 253);
+}
+
+
+.sidebar-link div {
+  font-size: 10px;
+}
