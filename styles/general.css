@@ -2,13 +2,14 @@ p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+  /* color: rgb(1, 37, 84); */
 }
 
 body {
   /* This style below will be inherited */
   font-family: Poppins, Arial;
   margin: 0;
-  height: 1500px;
+  height: 700px;
   padding-top: 80px;
   padding-left: 96px;
   padding-right: 24px;
@@ -25,3 +26,74 @@ a {
   margin-left: 100px;
   padding-left: 00px;
 }
+
+.contact-link {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top:180px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228); */
+}
+
+.nba-text-link {
+  flex:1;
+  margin-left: 15px;
+  margin-right: 5px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nba-text-div {
+  color: rgb(0, 65, 151);
+  font-weight: 550;
+}
+
+.f1-text-div {
+  color: rgb(246, 42, 42);
+  font-weight: 550;
+}
+
+.f1-text-link {
+  flex:1;
+  margin-left: 50px;
+  margin-left: 15px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nba-logo {
+  margin-left: 15px;
+  height: 75px;
+}
+
+.f1-logo {
+  margin-left: 15px;
+  height: 75px;
+}
+
+.driver-team-pts
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align:center;
+ /* height:470px; */
+ /* margin-top: 20px; */
+ /* margin-left: 230px; */
+ /* flex-shrink: 0; */
+}
+
+
+
