@@ -240,7 +240,19 @@ margin-top:70px
   text-align:center;
   /* height:470px; */
   /* margin-top: 20px; */
-  /* margin-left: 230px; */
+  margin-left: 50px;
+  /* flex-shrink: 0; */
+ }
+
+ .team-shot-charts
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  /* height:470px; */
+  /* margin-top: 20px; */
+  margin-left: 200px;
   /* flex-shrink: 0; */
  }
 
