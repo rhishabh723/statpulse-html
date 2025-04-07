@@ -181,6 +181,13 @@ margin-top:70px
   /* width: 80% */
 }
 
+.driver-average-lap {
+  background-color: rgb(255, 255, 255);
+  margin-left: 135px;
+  padding-left: 00px;
+  /* width: 80% */
+}
+
 .driver-median-lap {
   background-color: rgb(255, 255, 255);
   margin-left: 135px;
@@ -196,6 +203,13 @@ margin-top:70px
 }
 
 .team-pace-box {
+  background-color: rgb(255, 255, 255);
+  margin-left: 135px;
+  padding-left: 00px;
+  /* width: 80% */
+}
+
+.team-average-lap {
   background-color: rgb(255, 255, 255);
   margin-left: 135px;
   padding-left: 00px;
